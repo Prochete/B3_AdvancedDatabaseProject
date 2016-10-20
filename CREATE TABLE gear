@@ -1,0 +1,12 @@
+CREATE TABLE gear (
+    gear_id int,
+    model_code VARCHAR(150),
+    producer_id int,
+    production_date DATE,
+    gear_type VARCHAR(150),
+    capacity VARCHAR(150),
+    ratio VARCHAR(150),
+    availability INT,
+    price VARCHAR(150),
+    PRIMARY KEY (gear_id)
+    );
