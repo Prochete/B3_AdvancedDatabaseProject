@@ -1,0 +1,12 @@
+CREATE TABLE engine (
+    engine_id int NOT NULL,
+    model_code VARCHAR(150),
+    producer_id INT,
+    production_date DATE,
+    engine_type VARCHAR(150),
+    capacity VARCHAR(150),
+    availability INT,
+    horse_power VARCHAR(150),
+    price VARCHAR(150),
+    PRIMARY KEY(engine_id)
+);
