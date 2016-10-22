@@ -1,0 +1,7 @@
+ALTER TABLE car
+ADD FOREIGN KEY (engine_id)
+REFERENCES engine(id)
+
+ALTER TABLE car
+ADD FOREIGN KEY (gear_id)
+REFERENCES gear(id)
